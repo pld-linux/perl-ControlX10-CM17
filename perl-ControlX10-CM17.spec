@@ -9,7 +9,7 @@ Summary:	ControlX10::CM17 - Perl extension for 'FireCracker' RF Transmitter
 Summary(pl.UTF-8):	ControlX10::CM17 - rozszerzenie Perla dla nadajnika radiowego 'FireCracker'
 Name:		perl-ControlX10-CM17
 Version:	0.07
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/B/BB/BBIRTH/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -61,6 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README README.txt
+%dir %{perl_vendorlib}/ControlX10
 %{perl_vendorlib}/ControlX10/*.pm
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
