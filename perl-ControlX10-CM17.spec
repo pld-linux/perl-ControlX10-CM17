@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	ControlX10
 %define	pnam	CM17
 Summary:	ControlX10::CM17 - Perl extension for 'FireCracker' RF Transmitter
